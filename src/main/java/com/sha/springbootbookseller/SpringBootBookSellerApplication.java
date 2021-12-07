@@ -13,10 +13,6 @@ public class SpringBootBookSellerApplication {
 		SpringApplication.run(SpringBootBookSellerApplication.class, args);
 	}
 
-	@Bean
-	public PasswordEncoder passwordEncoder()
-	{
-		return  new BCryptPasswordEncoder();
-	}
+
 
 }
